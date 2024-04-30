@@ -75,12 +75,21 @@ body {
 .menu-items {
   display: flex;
   gap: 15px;
+  font-size: 30px;
+  padding: 10px;
+}
+.menu-item-btn1,
+.menu-item-btn2 {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 2px;
+  cursor: pointer;
 }
 
 .logo {
   height: 3%;
   width: 3%;
   padding-top: 2px;
+  padding-left: 3px;
 }
 
 .elems {
