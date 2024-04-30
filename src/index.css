@@ -203,11 +203,12 @@ body {
   color: #ffffff;
   padding-bottom: 20px;
   font-size: 2rem;
+  margin-bottom: 120px;
 }
 
 .ron-pic {
-  height: 50vh;
-  width: 20vw;
+  height: 40vh;
+  width: 30vw;
   max-width: 100%;
   border-radius: 10px;
   filter: brightness(0.7);
@@ -252,4 +253,46 @@ body {
   to {
     transform: translateX(-100%);
   }
+}
+/* ///////// END OF ANIMATION SECTION ///////////// */
+
+.footer {
+  height: 900px;
+  width: 100%;
+  padding-top: 40px;
+  background-image: linear-gradient(to bottom, #32012fc0 70%, #0000003b 100%);
+}
+
+.footer h1 {
+  color: #ffffff;
+  font-size: 35rem;
+  font-weight: 100;
+  padding-left: 100px;
+}
+
+footer {
+  background-color: #00000042;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Roboto";
+  backdrop-filter: blur(15px);
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid grey;
+}
+
+.footer-content h4 {
+  padding: 3px;
 }
