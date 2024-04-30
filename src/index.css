@@ -40,7 +40,7 @@ body {
   z-index: 1;
 }
 
-.hero-section h1 {
+.view-1 {
   font-weight: 500;
   position: absolute;
   bottom: 200px;
@@ -159,4 +159,97 @@ body {
   text-align: right;
   margin-top: 100px;
   margin-left: 800px;
+}
+
+/* /////////////// END OF MIDDLE DESCRIPTION //////////// */
+
+.view-2 {
+  font-weight: 500;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 200px;
+  z-index: 2;
+  font-size: 7.5rem;
+  letter-spacing: 10px;
+  color: white;
+  padding: 2px 2px;
+  bottom: 50px;
+  background-color: #2228315e;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.hero-img-2 {
+  height: 100vh;
+  width: 100%;
+  filter: brightness(0.5);
+  object-fit: cover;
+}
+
+.canvas {
+  margin-left: 800px;
+}
+
+/* ////////////////////END OF CANVAS SECTION ////////////// */
+
+.runner {
+  height: 100vh;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.title-idea {
+  color: #ffffff;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.ron-pic {
+  height: 50vh;
+  width: 20vw;
+  max-width: 100%;
+  border-radius: 10px;
+  filter: brightness(0.7);
+}
+
+.moving-text {
+  overflow-x: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.moving-text::-webkit-scrollbar {
+  display: none;
+}
+
+.con {
+  white-space: nowrap;
+  display: inline-block;
+  animation: move;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.moving-text img {
+  display: inline-block;
+}
+
+#gola {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 9vw 1vw;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
