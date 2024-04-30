@@ -45,9 +45,14 @@ body {
   position: absolute;
   bottom: 200px;
   z-index: 2;
-  font-size: 6rem;
+  font-size: 7.5rem;
   letter-spacing: 20px;
   color: white;
+  padding: 2px 2px;
+  bottom: 50px;
+  background-color: #2228315e;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 
 .hero-section h1 span {
@@ -55,9 +60,10 @@ body {
 }
 
 .hero-img {
-  height: 70vh;
+  height: 100%;
   width: 100%;
-  filter: contrast(-10%);
+  filter: brightness(0.5);
+  object-fit: cover;
 }
 
 .nav-bar {
@@ -67,9 +73,10 @@ body {
   width: 100%;
   color: white;
   z-index: 2;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.411);
   /* filter: blur(2px); */
   padding: 10px;
+  backdrop-filter: blur(5px);
 }
 
 .menu-items {
@@ -83,6 +90,18 @@ body {
   border: 2px solid rgb(255, 255, 255);
   padding: 2px;
   cursor: pointer;
+}
+
+/* .menu-items:hover {
+  color: black;
+} */
+.menu-item-btn1:hover {
+  background-color: #ff407d;
+  color: black;
+}
+.menu-item-btn2:hover {
+  background-color: #ff407d;
+  color: black;
 }
 
 .logo {
