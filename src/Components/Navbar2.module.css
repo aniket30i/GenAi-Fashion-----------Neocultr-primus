@@ -1,0 +1,29 @@
+.navbar {
+  height: 90px;
+  width: 100%;
+  color: white;
+  z-index: 2;
+  background-color: #6710ca21;
+  padding: 10px;
+}
+
+.logop2 {
+  height: 70px;
+  width: 75px;
+  padding-top: 2px;
+  padding-left: 3px;
+}
+
+.commBtn {
+  border: 2px solid #ffffff;
+  padding: 4px 4px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.commBtn:hover {
+  background-color: #ffffff;
+  color: black;
+}

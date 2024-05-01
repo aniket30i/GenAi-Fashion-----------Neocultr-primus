@@ -1,0 +1,58 @@
+.promptContainer {
+  height: 500px;
+  width: 400px;
+  padding: 100px 0;
+  margin-right: 200px;
+}
+
+.nameBox input {
+  height: 35px;
+  width: 500px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  border: 2px solid #585858;
+  background-color: #2c2c2c3b;
+  color: #ffffff;
+}
+
+.promptBox textarea {
+  height: 180px;
+  width: 500px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  border: 2px solid #585858;
+  background-color: #2c2c2c5b;
+  color: #ffffff;
+}
+
+.generateBtn {
+  height: 50px;
+  width: 120px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 21, 143, 1) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Parabole";
+  font-size: 1.2rem;
+}
+
+.generateBtn:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(7, 3, 66) 0%,
+    rgb(66, 31, 161) 54%,
+    hsla(190, 100%, 50%, 0.712) 100%
+  );
+}
+
+input[type="text"] {
+  vertical-align: top;
+}

@@ -74,7 +74,6 @@ body {
   color: white;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.411);
-  /* filter: blur(2px); */
   padding: 10px;
   backdrop-filter: blur(5px);
 }
@@ -104,8 +103,8 @@ body {
 }
 
 .logo {
-  height: 3%;
-  width: 3%;
+  height: 70px;
+  width: 75px;
   padding-top: 2px;
   padding-left: 3px;
 }
@@ -259,7 +258,7 @@ body {
   height: 900px;
   width: 100%;
   padding-top: 40px;
-  background-image: linear-gradient(to bottom, #32012fc0 70%, #0000003b 100%);
+  background-image: linear-gradient(to bottom, #6710ca21 70%, #0000003b 100%);
 }
 
 .footer h1 {
