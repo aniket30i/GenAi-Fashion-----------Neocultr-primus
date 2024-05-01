@@ -15,11 +15,12 @@ function Create() {
     async function query(data) {
       setLoader(true);
       try {
+        const apiKey = process.env.REACT_APP_HUGGING_FACE_API_KEY;
         const response = await fetch(
           "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
           {
             headers: {
-              Authorization: `Bearer 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`,
+              Authorization: `Bearer ${apiKey}`,
             },
             method: "POST",
             body: JSON.stringify(data),
