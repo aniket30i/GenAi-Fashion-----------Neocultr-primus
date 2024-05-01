@@ -90,11 +90,10 @@ body {
   border: 2px solid rgb(255, 255, 255);
   padding: 2px;
   cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* .menu-items:hover {
-  color: black;
-} */
 .menu-item-btn1:hover {
   background-color: #ffffff;
   color: black;
