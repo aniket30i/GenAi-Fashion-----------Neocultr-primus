@@ -1,10 +1,22 @@
 import React from "react";
 import styles from "./Genbox.module.css";
+import { useState } from "react";
 
-function Genbox() {
+function Genbox({ inputHandler, isLoader, isNewImage, imgUrl }) {
+  const [prompt, setPrompt] = useState("");
+
+  const handlePromptInput = (e) => {
+    setPrompt(e.target.value);
+  };
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    inputHandler(prompt);
+  };
+
   return (
     <div className={styles.promptContainer}>
-      <form onSubmit={() => false}>
+      <form onSubmit={submitHandler}>
         <div className={styles.nameBox}>
           <input
             type="text"
@@ -12,34 +24,39 @@ function Genbox() {
             id="name"
             style={{ fontSize: "16px", fontFamily: "Roboto" }}
           />
-          <label htmlFor="name">ABC</label>
+          <label htmlFor="name"></label>
         </div>
-
-        {/* <div className={styles.promptBox}>
-          <input
-            type="text"
-            placeholder="Put your vision in words!"
-            id="prompt"
-            style={{ fontSize: "16px", fontFamily: "Roboto" }}
-          />
-          <label htmlFor="prompt">DEF</label>
-        </div> */}
 
         <div className={styles.promptBox}>
           <textarea
             placeholder="Put down your vision in words!"
-            id="message"
+            id="message-prompt"
+            onChange={handlePromptInput}
+            value={prompt}
             style={{
               fontSize: "16px",
               fontFamily: "Roboto",
               verticalAlign: "top",
             }}
           ></textarea>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="Prompt">Prompt</label>
         </div>
 
-        <button className={styles.generateBtn}>Generate</button>
+        <button
+          className={`${styles.generateBtn} ${
+            isLoader ? styles["disable"] : ""
+          } `}
+          type="submit"
+          disabled={isLoader}
+        >
+          Generate
+        </button>
       </form>
+      {isNewImage && (
+        <a href={imgUrl} download={imgUrl} className={styles["download-btn"]}>
+          Download
+        </a>
+      )}
     </div>
   );
 }

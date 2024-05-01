@@ -16,6 +16,7 @@
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
   margin-left: 300px;
+  position: relative;
 }
 
 .winImg {
@@ -23,4 +24,16 @@
   width: 550px;
   border-radius: 10px;
   border: 1px solid #ffffff;
+  filter: brightness(0.8);
+}
+
+.bg-dark {
+  filter: brightness(40%);
+}
+
+.loader-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
