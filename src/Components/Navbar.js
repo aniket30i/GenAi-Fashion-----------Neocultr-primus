@@ -11,11 +11,28 @@ function Navbar() {
           <Link to="/Create" className="menu-item-btn1">
             Create
           </Link>
-          <Link className="menu-item-btn2">Credits</Link>
+          <span className="menu-item-btn2" id="scrollButton">
+            Socials
+          </span>
         </p>
       </nav>
     </div>
   );
+}
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
+const button = document.getElementById("scrollButton");
+if (button) {
+  button.addEventListener("click", () => {
+    console.log("click");
+    scrollToSection("socials");
+  });
 }
 
 export default Navbar;
