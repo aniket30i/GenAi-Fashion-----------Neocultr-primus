@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a website that showcases the use of GenAi for fashion designing purposes. The vision behind the project is to demonstrate how a great generation or culture of fashion can be created by integrating elements from our environment and culture.
+This project is a website that showcases the use of GenAi for fashion designing purposes. The vision behind the project is to demonstrate how a great generation or culture of fashion can be created by integrating elements from our environment and culture. At the current state of the project this offers you to go guns blazing with your creative knack of fashion and vision , see it materialize and keep it for yourself soon the community feature will be enabled to brings like minded peeps under the same tree shade.
 
 ## Features
 
