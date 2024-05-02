@@ -3,22 +3,22 @@ import logo from "../logo_n.jpg";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  useEffect(() => {
-    function scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-      }
-    }
+  //   useEffect(() => {
+  //     function scrollToSection(sectionId) {
+  //       const section = document.getElementById(sectionId);
+  //       if (section) {
+  //         section.scrollIntoView({ behavior: "smooth" });
+  //       }
+  //     }
 
-    const button = document.getElementById("scrollButton");
-    if (button) {
-      button.addEventListener("click", () => {
-        console.log("click");
-        scrollToSection("socials");
-      });
-    }
-  }, []);
+  //     const button = document.getElementById("scrollButton");
+  //     if (button) {
+  //       button.addEventListener("click", () => {
+  //         console.log("click");
+  //         scrollToSection("socials");
+  //       });
+  //     }
+  //   }, []);
   return (
     <div className="nav-bar">
       <nav className="elems">
