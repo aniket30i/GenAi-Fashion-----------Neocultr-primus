@@ -16,3 +16,9 @@ This project is a website that showcases the use of GenAi for fashion designing 
 - CSS
 - JavaScript
 - React.js
+
+##### Known issues/ Limitations
+- A bug with local time
+- Jitter with running animations
+- Community page to be added later
+- Generative model is a generic model
