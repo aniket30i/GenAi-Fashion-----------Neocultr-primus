@@ -4,7 +4,6 @@ import t2 from "../ideas/typ2.jpg";
 import t3 from "../ideas/typ3.jpg";
 import t4 from "../ideas/typ4.jpg";
 import t5 from "../ideas/typ5.jpg";
-import t6 from "../ideas/typ6.jpg";
 
 function Running() {
   return (
@@ -21,8 +20,6 @@ function Running() {
           <img className="ron-pic" src={t4} alt="xyz" />
           <div id="gola"></div>
           <img className="ron-pic" src={t5} alt="xyz" />
-          <div id="gola"></div>
-          <img className="ron-pic" src={t6} alt="xyz" />
           <div id="gola"></div>
         </div>
       </div>
