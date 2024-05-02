@@ -17,7 +17,7 @@ function Genbox({ inputHandler, isLoader, isNewImage, imgUrl }) {
   return (
     <div className={styles.promptContainer}>
       <form onSubmit={submitHandler}>
-        <div className={styles.nameBox}>
+        {/* <div className={styles.nameBox}>
           <input
             type="text"
             placeholder="Your name?"
@@ -25,7 +25,7 @@ function Genbox({ inputHandler, isLoader, isNewImage, imgUrl }) {
             style={{ fontSize: "16px", fontFamily: "Roboto" }}
           />
           <label htmlFor="name"></label>
-        </div>
+        </div> */}
 
         <div className={styles.promptBox}>
           <textarea
@@ -34,12 +34,12 @@ function Genbox({ inputHandler, isLoader, isNewImage, imgUrl }) {
             onChange={handlePromptInput}
             value={prompt}
             style={{
-              fontSize: "16px",
+              fontSize: "18px",
               fontFamily: "Roboto",
-              verticalAlign: "top",
+              textAlign: "center",
             }}
           ></textarea>
-          <label htmlFor="Prompt">Prompt</label>
+          <label htmlFor="Prompt"></label>
         </div>
 
         <button

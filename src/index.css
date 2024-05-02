@@ -286,7 +286,7 @@ footer {
   background-color: #00000042;
   color: #fff;
   padding: 20px 0;
-  font-family: "Roboto";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   backdrop-filter: blur(15px);
 }
 
