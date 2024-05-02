@@ -17,7 +17,7 @@ function Create() {
       try {
         const apiKey = process.env.REACT_APP_HUGGING_FACE_API_KEY;
         const response = await fetch(
-          "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
+          "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2",
           {
             headers: {
               Authorization: `Bearer ${apiKey}`,
