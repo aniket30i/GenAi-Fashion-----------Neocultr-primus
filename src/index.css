@@ -240,7 +240,7 @@ body {
   white-space: nowrap;
   display: inline-block;
   animation: move;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

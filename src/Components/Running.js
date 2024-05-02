@@ -20,7 +20,6 @@ function Running() {
           <img className="ron-pic" src={t4} alt="xyz" />
           <div id="gola"></div>
           <img className="ron-pic" src={t5} alt="xyz" />
-          <div id="gola"></div>
         </div>
       </div>
     </div>
