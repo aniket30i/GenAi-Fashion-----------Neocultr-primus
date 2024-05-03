@@ -9,26 +9,28 @@ import Footer from "./Footer";
 
 function Main() {
   return (
-    <div className="main">
-      <Navbar />
-      <Hero>
-        <img className="hero-img" src={hdpic1} alt="hero-img" />
-        <h1 className="view-1">
-          <span>NEOCULTR</span>
-          <span>FAZHION</span>
-        </h1>
-      </Hero>
-      <Vibey />
-      <Hero>
-        <img className="hero-img-2" src={hdpic2} alt="hero-img" />
-        <h1 className="view-2">
-          <span>YOUR IMAGINATION</span>
-          <span className="canvas">ON OUR CANVAS</span>
-        </h1>
-      </Hero>
-      <Running />
-      <Footer />
-    </div>
+    <>
+      <div className="main">
+        <Navbar />
+        <Hero>
+          <img className="hero-img" src={hdpic1} alt="hero-img" />
+          <h1 className="view-1">
+            <span>NEOCULTR</span>
+            <span>FAZHION</span>
+          </h1>
+        </Hero>
+        <Vibey />
+        <Hero>
+          <img className="hero-img-2" src={hdpic2} alt="hero-img" />
+          <h1 className="view-2">
+            <span>YOUR IMAGINATION</span>
+            <span className="canvas">ON OUR CANVAS</span>
+          </h1>
+        </Hero>
+        <Running />
+        <Footer />
+      </div>
+    </>
   );
 }
 

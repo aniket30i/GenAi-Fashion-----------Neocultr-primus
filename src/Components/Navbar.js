@@ -19,6 +19,7 @@ function Navbar() {
   //       });
   //     }
   //   }, []);
+
   return (
     <div className="nav-bar">
       <nav className="elems">
@@ -30,6 +31,7 @@ function Navbar() {
           <span className="menu-item-btn2" id="scrollButton">
             Socials
           </span>
+          <h3>Menu</h3>
         </p>
       </nav>
     </div>
