@@ -23,3 +23,4 @@ This project is a website that showcases the use of GenAi for fashion designing 
 - Community page to be added later
 - Generative AI model is a generic model
 - Api sometimes goes out of service
+- Responsivness is still in works ( not added to hosted )
