@@ -32,6 +32,6 @@ This project is a website that showcases the use of GenAi for fashion designing 
 
 
 ###### Dev notes:
-- (5th May , 2024) : Responsive added to both and the pages and hosted
+- (5th May , 2024) : Responsive added to both the pages and hosted
 - (5th May , 2024) : Responsiveness complying to most popular device screens
 - (5th May , 2024) : Fine tune will be present at the full site along with community
