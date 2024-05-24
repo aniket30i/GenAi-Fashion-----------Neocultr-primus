@@ -29,6 +29,7 @@ This project is a website that showcases the use of GenAi for fashion designing 
 - Generative AI model is a generic model
 - Stable diffusion 2 API sometimes goes out of service
 - Responsivness is still in works ( not added to hosted ) | update : Added and hosted
+- Smooth scroll in homepage glitches frequently
 
 
 ###### Dev notes:
